@@ -1,0 +1,62 @@
+Day 3 Python Basics Notes
+
+ 1️⃣ What is a Variable?
+A variable is like a container that stores data (numbers, text, etc.)
+You can use it to remember information and use it later in your program.
+
+Example:
+age = 20          # 'age' stores the number 20
+name = "Rimsha"   # 'name' stores the text "Rimsha"
+print(age, name)
+
+# Tip: Choose meaningful variable names like 'age', 'score', 'username'
+
+ 2️⃣ What is input()?
+ input() is used to take input from the user.
+ Whatever the user types is stored as a string by default.
+
+# Example:
+user_name = input("Enter your name: ")
+print("Hello,", user_name)
+
+# Tip: Use input() when you want the program to interact with the use.
+
+ 3️⃣ What is int()?
+ int() converts a value into an integer (whole number).
+ Useful when you get numbers from input() because input() returns a string.
+
+# Example:
+num_str = input("Enter a number: ")  # input is a string
+num = int(num_str)                    # convert to integer
+print("Number + 5 =", num + 5)
+
+# Tip: Always convert input to int if you want to do math operations
+
+4️⃣ What is a Loop?
+ A loop repeats a block of code multiple times.
+ Common loops: for loop, while loop
+
+# Example (for loop):
+for i in range(5):  # repeats 5 times
+    print("Hello", i)
+
+# Example (while loop):
+count = 0
+while count < 5:
+    print("Count is", count)
+    count += 1  # increase count
+
+# Tip: Use loops to save time instead of writing repetitive code
+
+ 5️⃣ What is a Function?
+ A function is a block of code that performs a specific task.
+ You can "call" it anytime in your program.
+
+# Example:
+def greet(name):
+    print("Hello,", name)
+
+greet("Rimsha")
+greet("Ali")
+
+# Tip: Use functions to organize your code and make it reusable
